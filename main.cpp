@@ -14,7 +14,7 @@
 using namespace std;
 
 void limpaConsole() {
-    #ifdef __WINDOWS__
+    #ifdef _WIN32
     system("cls");
     #else
     system("clear");
@@ -551,7 +551,12 @@ void Grafo::colorir() {
 }
 
 int main() {
+    // https://github.com/alf-p-steinbach/C---how-to---make-non-English-text-work-in-Windows/blob/main/how-to-use-utf8-in-windows.md
+    #ifdef _WIN32
+    system("chcp 65001 >nul");
+    #endif
     setlocale(LC_ALL, "Portuguese");
+
     int nVertices;
     cout << "Digite o número de vértices: ";
     cin >> nVertices;
