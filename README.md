@@ -3,11 +3,11 @@
 Integrantes: Paulo Martino Hermans e Pedro José Garcia<br>
 Data de entrega: 09/10/2024<br>
 
-# Vídeo
+## Vídeo
 
 Vídeo mostrando funcionamento do projeto disponível em:
 
-# Instruções de Compilação
+## Instruções de Compilação
 
 A implementação foi feita utilizando a IDE Visual Studio Code.<br>
 Tenha certeza que o mingw está instalado corretamente na sua máquina.
