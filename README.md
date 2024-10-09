@@ -5,7 +5,7 @@ Data de entrega: 09/10/2024<br>
 
 ## Vídeo
 
-Vídeo mostrando funcionamento do projeto disponível em:
+Vídeo mostrando funcionamento do projeto disponível em: https://youtu.be/Dh5tnEF-2lQ
 
 ## Instruções de Compilação
 
