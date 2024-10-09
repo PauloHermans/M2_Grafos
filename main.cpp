@@ -4,7 +4,6 @@
 #include <algorithm>
 #include <vector>
 #include <list>
-#include <locale.h>
 #include <queue>
 #include <stack>
 #include <unordered_map>
@@ -555,7 +554,6 @@ int main() {
     #ifdef _WIN32
     system("chcp 65001 >nul");
     #endif
-    setlocale(LC_ALL, "Portuguese");
 
     int nVertices;
     cout << "Digite o número de vértices: ";
